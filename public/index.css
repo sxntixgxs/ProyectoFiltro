@@ -1,0 +1,163 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: black;
+}
+
+body {
+  background-color: beige;
+}
+
+.container-Principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-Imc {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.optionsFormC {
+  margin-bottom: 10px;
+}
+
+.spanImc {
+  display: inline-block;
+  width: 200px;
+}
+
+.peso, .altura {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 24px;
+  color: #007bff;
+}
+
+@media screen and (max-width: 768px) {
+  .container-Principal {
+    padding: 20px;
+  }
+
+  .form-Imc {
+    width: 100%;
+  }
+
+  .spanImc {
+    width: 100%;
+  }
+
+  .peso, .altura {
+    width: calc(50% - 10px);
+  }
+
+  .option-home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .op-imc {
+    margin: 10px 0;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.option-home {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.op-imc {
+  width: 150px;
+  height: 100px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.op-imc:hover {
+  background-color: #0056b3;
+}
+
+.option-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.option-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.op-imc {
+  width: 150px;
+  height: 100px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.op-imc p {
+  margin: 0;
+}
+
+
+  
